@@ -69,7 +69,7 @@ ORDER BY
 -- Correlation between claim amount, age, and blood pressure (MAP) range
 
 SELECT 
-	gender,
+	age,
 	CASE 
 		WHEN bloodpressure < 70 THEN "low_MAP"
 		WHEN bloodpressure BETWEEN 70 AND 100 THEN "normal_MAP"
